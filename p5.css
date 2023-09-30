@@ -1,0 +1,30 @@
+/* Navigation Links Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+  }
+  
+  nav li {
+    margin: 0 20px; /* Add some spacing between the links */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #3498db; /* Link text color */
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.2s; /* Smooth color transition on hover */
+  
+    /* Style the links on hover */
+    &:hover {
+      color: #e74c3c; /* Change text color on hover */
+    }
+  }
+  
+  /* Optionally, add an underline effect on hover */
+  nav a:hover {
+    text-decoration: underline;
+  }
+  

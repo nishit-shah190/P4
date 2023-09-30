@@ -1,0 +1,48 @@
+/* Header Styles */
+.header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header Content Styles */
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center content */
+  }
+  
+  /* Left Content Styles */
+  .left-content {
+    flex: 1; /* Take up available space */
+    text-align: left; /* Align image to the left */
+  }
+  
+  /* Image Styles */
+img{
+    max-width: 50%;
+    height: 100px;
+  }
+  
+  /* Right Content Styles */
+  .right-content {
+    flex: 1; /* Take up available space */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Customize the styles to your liking */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  
+  
+  
